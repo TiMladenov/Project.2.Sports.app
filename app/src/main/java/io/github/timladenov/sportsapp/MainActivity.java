@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setNamesA();
         updateScreen();
     }
 
@@ -53,6 +54,12 @@ public class MainActivity extends AppCompatActivity {
         canAdA = savedInstaceState.getBoolean("canAdA");
         canAdB = savedInstaceState.getBoolean("canAdB");
         updateScreen();
+    }
+
+    public void setNamesA() {
+        String tmp = "";
+        TextView nameA = (TextView) findViewById(R.id.TeamBName);
+        nameA.setText(EnterTeamNames.getTeamNamesA(tmp));
     }
 
 

@@ -12,6 +12,6 @@
     <string name="addPoint">Add Point</string>
     <string name="game">Sets</string>
     <string name="points">Points</string>
-    <string name="teamA">Team A</string>
-    <string name="teamB">Team B</string>
+    <string name="teamA">""</string>
+    <string name="teamB">""</string>
 </resources>
