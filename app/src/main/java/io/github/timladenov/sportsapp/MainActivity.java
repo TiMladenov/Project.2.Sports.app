@@ -71,34 +71,40 @@ public class MainActivity extends AppCompatActivity {
             switch(buttonID) {
 
                 case R.id.addPointsA:
-                    if (teamApoints < 30) {
+                    if (teamApoints < 30 && pointsAteamStr != "AD") {
                         teamApoints += 15;
                         pointsAteamStr = Integer.toString(teamApoints);
                         returnResult(pointsAteamStr, buttonID);
                     } else {
-                        teamApoints += 10;
-                        pointsAteamStr = Integer.toString(teamApoints);
-                        returnResult(pointsAteamStr, buttonID);
 
-                        if(teamApoints == 40) {
-                            canAdA = true;
+                        if (pointsBteamStr != "AD") {
+                            teamApoints += 10;
+                            pointsAteamStr = Integer.toString(teamApoints);
+                            returnResult(pointsAteamStr, buttonID);
+
+                            if(teamApoints == 40) {
+                                canAdA = true;
+                            }
                         }
                     }
                     break;
 
                 case R.id.addPointsB:
-                    if(teamBpoints < 30) {
+                    if(teamBpoints < 30 && pointsBteamStr != "AD") {
                         teamBpoints += 15;
                         pointsBteamStr = Integer.toString(teamBpoints);
                         returnResult(pointsBteamStr, buttonID);
                     }
                     else {
-                        teamBpoints += 10;
-                        pointsBteamStr = Integer.toString(teamBpoints);
-                        returnResult(pointsBteamStr, buttonID);
 
-                        if(teamBpoints == 40) {
-                            canAdB = true;
+                        if(pointsAteamStr != "AD") {
+                            teamBpoints += 10;
+                            pointsBteamStr = Integer.toString(teamBpoints);
+                            returnResult(pointsBteamStr, buttonID);
+
+                            if(teamBpoints == 40) {
+                                canAdB = true;
+                            }
                         }
                     }
                     break;
