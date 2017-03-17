@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sports App</string>
+    <string name="appLogo">Tennis Score Keeper</string>
+    <string name="gameSelect">Select your game to track score</string>
+    <string name="mainTxtStyle">sans-serif</string>
+    <string name="hint">""</string>
+    <string name="teamNameEntryA">Enter team A name</string>
+    <string name="teamNameEntryB">Enter team B name</string>
+    <string name="scoreA">0</string>
+    <string name="scoreB">0</string>
+    <string name="decrement">Deuce - Reset</string>
+    <string name="addPoint">Add Point</string>
+    <string name="game">Sets</string>
+    <string name="points">Points</string>
+    <string name="teamA">Team A</string>
+    <string name="teamB">Team B</string>
+</resources>

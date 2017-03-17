@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="io.github.timladenov.sportsapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/weightHeight"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/mainLogomarginEnd"
+        android:layout_marginStart="@dimen/mainLogomarginStart"
+        android:layout_marginTop="@dimen/mainLogomarginTop"
+        android:layout_weight="@dimen/weightItem"
+        android:fontFamily="@string/mainTxtStyle"
+        android:text="@string/appLogo"
+        android:textAlignment="center"
+        android:textColor="@color/mainTxtClr"
+        android:textSize="@dimen/logoTxtSize"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/drawLine1dp"
+        android:layout_marginEnd="@dimen/mainLogomarginEnd"
+        android:layout_marginStart="@dimen/mainLogomarginStart"
+        android:background="@color/mainTxtClr" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/weightHeight"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/mainLogomarginEnd"
+            android:layout_marginStart="@dimen/mainLogomarginStart"
+            android:layout_weight="@dimen/weightItem"
+            android:fontFamily="@string/mainTxtStyle"
+            android:gravity="center_vertical"
+            android:text="@string/teamA"
+            android:textAlignment="center"
+            android:textColor="@color/mainTxtClr"
+            android:textSize="@dimen/genTxtSize"
+            android:textStyle="normal" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/mainLogomarginEnd"
+            android:layout_marginStart="@dimen/mainLogomarginStart"
+            android:background="@color/mainTxtClr" />
+
+        <TextView
+            android:layout_width="@dimen/weightHeight"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/mainLogomarginEnd"
+            android:layout_marginStart="@dimen/mainLogomarginStart"
+            android:layout_weight="@dimen/weightItem"
+            android:fontFamily="@string/mainTxtStyle"
+            android:gravity="center_vertical"
+            android:text="@string/teamB"
+            android:textAlignment="center"
+            android:textColor="@color/mainTxtClr"
+            android:textSize="@dimen/genTxtSize"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/drawLine1dp"
+        android:layout_marginEnd="@dimen/mainLogomarginEnd"
+        android:layout_marginStart="@dimen/mainLogomarginStart"
+        android:background="@color/mainTxtClr" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/weightHeight"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/mainLogomarginEnd"
+            android:layout_marginStart="@dimen/mainLogomarginStart"
+            android:layout_weight="@dimen/weightItem"
+            android:fontFamily="@string/mainTxtStyle"
+            android:gravity="center_vertical"
+            android:text="@string/game"
+            android:textAlignment="center"
+            android:textColor="@color/mainTxtClr"
+            android:textSize="@dimen/genTxtSize"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="@dimen/weightHeight"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/mainLogomarginEnd"
+            android:layout_marginStart="@dimen/mainLogomarginStart"
+            android:layout_weight="@dimen/weightItem"
+            android:fontFamily="@string/mainTxtStyle"
+            android:gravity="center_vertical"
+            android:text="@string/points"
+            android:textAlignment="center"
+            android:textColor="@color/mainTxtClr"
+            android:textSize="@dimen/genTxtSize"
+            android:textStyle="normal" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/mainLogomarginEnd"
+            android:layout_marginStart="@dimen/mainLogomarginStart"
+            android:background="@color/mainTxtClr" />
+
+        <TextView
+            android:layout_width="@dimen/weightHeight"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/mainLogomarginEnd"
+            android:layout_marginStart="@dimen/mainLogomarginStart"
+            android:layout_weight="@dimen/weightItem"
+            android:fontFamily="@string/mainTxtStyle"
+            android:gravity="center_vertical"
+            android:text="@string/points"
+            android:textAlignment="center"
+            android:textColor="@color/mainTxtClr"
+            android:textSize="@dimen/genTxtSize"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="@dimen/weightHeight"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/mainLogomarginEnd"
+            android:layout_marginStart="@dimen/mainLogomarginStart"
+            android:layout_weight="@dimen/weightItem"
+            android:fontFamily="@string/mainTxtStyle"
+            android:gravity="center_vertical"
+            android:text="@string/game"
+            android:textAlignment="center"
+            android:textColor="@color/mainTxtClr"
+            android:textSize="@dimen/genTxtSize"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/weightHeight"
+        android:layout_weight="@dimen/weightItem"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/teamAGames"
+            android:layout_width="@dimen/weightHeight"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/mainLogomarginEnd"
+            android:layout_marginStart="@dimen/mainLogomarginStart"
+            android:layout_weight="@dimen/weightItem"
+            android:fontFamily="@string/mainTxtStyle"
+            android:gravity="center_vertical"
+            android:text="@string/scoreA"
+            android:textAlignment="center"
+            android:textColor="@color/mainTxtClr"
+            android:textSize="@dimen/scoreSize"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/pointsA"
+            android:layout_width="@dimen/weightHeight"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_weight="@dimen/weightItem"
+            android:fontFamily="@string/mainTxtStyle"
+            android:gravity="center_vertical"
+            android:layout_marginEnd="@dimen/mainLogomarginEnd"
+            android:layout_marginStart="@dimen/mainLogomarginStart"
+            android:text="@string/scoreA"
+            android:textAlignment="center"
+            android:textColor="@color/mainTxtClr"
+            android:textSize="@dimen/scoreSize"
+            android:textStyle="normal" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/mainLogomarginEnd"
+            android:layout_marginStart="@dimen/mainLogomarginStart"
+            android:background="@color/mainTxtClr" />
+
+        <TextView
+            android:id="@+id/pointsB"
+            android:layout_width="@dimen/weightHeight"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/mainLogomarginEnd"
+            android:layout_marginStart="@dimen/mainLogomarginStart"
+            android:layout_weight="@dimen/weightItem"
+            android:fontFamily="@string/mainTxtStyle"
+            android:gravity="center_vertical"
+            android:text="@string/scoreB"
+            android:textAlignment="center"
+            android:textColor="@color/mainTxtClr"
+            android:textSize="@dimen/scoreSize"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/teamBGames"
+            android:layout_width="@dimen/weightHeight"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/mainLogomarginEnd"
+            android:layout_marginStart="@dimen/mainLogomarginStart"
+            android:layout_weight="@dimen/weightItem"
+            android:fontFamily="@string/mainTxtStyle"
+            android:gravity="center_vertical"
+            android:text="@string/scoreA"
+            android:textAlignment="center"
+            android:textColor="@color/mainTxtClr"
+            android:textSize="@dimen/scoreSize"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/drawLine1dp"
+        android:layout_marginEnd="@dimen/mainLogomarginEnd"
+        android:layout_marginStart="@dimen/mainLogomarginStart"
+        android:background="@color/mainTxtClr" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/weightHeight"
+        android:layout_marginBottom="@dimen/mainLogomarginTop"
+        android:layout_marginEnd="@dimen/mainLogomarginEnd"
+        android:layout_marginStart="@dimen/mainLogomarginStart"
+        android:layout_marginTop="@dimen/mainLogomarginTop"
+        android:layout_weight="@dimen/weightItem"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/weightHeight"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/weightItem"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/resetScoreA"
+                android:layout_width="@dimen/optionButtonSize"
+                android:layout_height="@dimen/optionButtonSize"
+                android:onClick="reset"
+                android:text="@string/decrement"
+                android:textAlignment="center"
+                android:textColor="@color/mainTxtClr"
+                android:textSize="@dimen/buttonTxtSize"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/drawLine1dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/mainLogomarginEnd"
+            android:layout_marginStart="@dimen/mainLogomarginStart"
+            android:background="@color/mainTxtClr" />
+
+        <LinearLayout
+            android:layout_width="@dimen/weightHeight"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/weightItem"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/addPointsA"
+                android:layout_width="@dimen/optionButtonSize"
+                android:layout_height="@dimen/optionButtonSize"
+                android:text="@string/addPoint"
+                android:textAlignment="center"
+                android:onClick="newResult"
+                android:textColor="@color/mainTxtClr"
+                android:textSize="@dimen/buttonTxtSize"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/drawLine1dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/mainLogomarginEnd"
+            android:layout_marginStart="@dimen/mainLogomarginStart"
+            android:background="@color/mainTxtClr" />
+
+        <LinearLayout
+            android:layout_width="@dimen/weightHeight"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/weightItem"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/addPointsB"
+                android:layout_width="@dimen/optionButtonSize"
+                android:layout_height="@dimen/optionButtonSize"
+                android:text="@string/addPoint"
+                android:onClick="newResult"
+                android:textAlignment="center"
+                android:textColor="@color/mainTxtClr"
+                android:textSize="@dimen/buttonTxtSize"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/drawLine1dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/mainLogomarginEnd"
+            android:layout_marginStart="@dimen/mainLogomarginStart"
+            android:background="@color/mainTxtClr" />
+
+        <LinearLayout
+            android:layout_width="@dimen/weightHeight"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/weightItem"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/resetScoreB"
+                android:layout_width="@dimen/optionButtonSize"
+                android:layout_height="@dimen/optionButtonSize"
+                android:text="@string/decrement"
+                android:onClick="reset"
+                android:textAlignment="center"
+                android:textColor="@color/mainTxtClr"
+                android:textSize="@dimen/buttonTxtSize"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
