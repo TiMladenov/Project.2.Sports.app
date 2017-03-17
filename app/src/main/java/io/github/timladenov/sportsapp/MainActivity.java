@@ -12,8 +12,8 @@ public class MainActivity extends AppCompatActivity {
     public int teamApoints = 0;
     public int teamBpoints = 0;
 
-    public String pointsAteamStr = "";
-    public String pointsBteamStr = "";
+    public String pointsAteamStr = "0";
+    public String pointsBteamStr = "0";
 
     public int gamesA = 0;
     public int gamesB = 0;
@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        updateScreen();
     }
 
     @Override

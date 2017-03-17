@@ -6,8 +6,8 @@
     <string name="hint">""</string>
     <string name="teamNameEntryA">Enter team A name</string>
     <string name="teamNameEntryB">Enter team B name</string>
-    <string name="scoreA">0</string>
-    <string name="scoreB">0</string>
+    <string name="scoreA">""</string>
+    <string name="scoreB">""</string>
     <string name="decrement">Deuce - Reset</string>
     <string name="addPoint">Add Point</string>
     <string name="game">Sets</string>
