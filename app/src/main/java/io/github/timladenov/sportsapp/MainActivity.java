@@ -25,8 +25,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        TextView tmp = (TextView) findViewById(R.id.TeamAName);
+        tmp.setText(getIntent().getExtras().getString("nameOfPlayerA"));
+
+        tmp = (TextView) findViewById(R.id.TeamBName);
+        tmp.setText(getIntent().getExtras().getString("nameOfPlayerB"));
+
         updateScreen();
-        setNamesA();
     }
 
     @Override
@@ -53,13 +59,10 @@ public class MainActivity extends AppCompatActivity {
         gamesB = savedInstaceState.getInt("gamesB");
         canAdA = savedInstaceState.getBoolean("canAdA");
         canAdB = savedInstaceState.getBoolean("canAdB");
-        updateScreen();
-    }
 
-    public void setNamesA() {
-        String tmp = "";
-        TextView nameA = (TextView) findViewById(R.id.TeamBName);
-        nameA.setText(EnterTeamNames.getTeamNamesA(tmp));
+
+
+        updateScreen();
     }
 
 

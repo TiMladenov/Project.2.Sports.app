@@ -4,23 +4,48 @@
     android:id="@+id/activity_enter_team_names"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/mainBkndColor"
     tools:context="io.github.timladenov.sportsapp.EnterTeamNames">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/teamnamebkgrnd"
+        android:scaleType="centerCrop"/>
+
+    <EditText
+        android:id="@+id/firstPlayer"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="This is where you enter names on screen"
-        android:layout_centerHorizontal="true"/>
+        android:hint="@string/hintA"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"
+        android:textColor="@color/mainTxtClr"
+        android:textColorHint="@color/mainTxtClr"
+        android:background="@color/mainBkndColor"
+        android:alpha="0.8"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/secondPlayer"
+        android:layout_below="@id/firstPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mainLogomarginTop"
+        android:hint="@string/hintB"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"
+        android:textColor="@color/mainTxtClr"
+        android:textColorHint="@color/mainTxtClr"
+        android:background="@color/mainBkndColor"
+        android:alpha="0.8"
+        android:singleLine="true"/>
 
     <Button
         android:id = "@+id/toMain"
+        android:layout_below="@id/secondPlayer"
+        android:layout_marginTop="@dimen/mainLogomarginTop"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
         android:text="Main"/>
-
 </RelativeLayout>

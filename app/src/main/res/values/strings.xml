@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Sports App</string>
     <string name="appLogo">Tennis Score Keeper</string>
+    <string name="hintA">Enter Player A name</string>
+    <string name="hintB">Enter Player B name</string>
     <string name="gameSelect">Select your game to track score</string>
     <string name="mainTxtStyle">sans-serif</string>
     <string name="hint">""</string>

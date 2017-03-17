@@ -5,10 +5,18 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class EnterTeamNames extends AppCompatActivity {
 
     Button toMain = null;
+
+    EditText tmp = null;
+    EditText nameA = null;
+    EditText nameB = null;
+
+    public String nameOfPlayerA = "Team A";
+    public String nameOfPlayerB = "Team B";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,17 +29,20 @@ public class EnterTeamNames extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent switchMain = new Intent(EnterTeamNames.this, MainActivity.class);
+
+                nameA = (EditText) findViewById(R.id.firstPlayer);
+                nameOfPlayerA = nameA.getText().toString();
+
+                switchMain.putExtra("nameOfPlayerA", nameOfPlayerA);
+
+                nameB = (EditText) findViewById(R.id.secondPlayer);
+                nameOfPlayerB = nameB.getText().toString();
+
+                switchMain.putExtra("nameOfPlayerB", nameOfPlayerB);
+
                 startActivity(switchMain);
                 finish();
             }
         });
-    }
-
-    public static String getTeamNamesA(String name1) {
-        return name1 = "This A";
-    }
-
-    public static String getTeamNamesB(String name2) {
-        return name2 = "This A";
     }
 }

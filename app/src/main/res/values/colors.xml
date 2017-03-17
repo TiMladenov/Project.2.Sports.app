@@ -5,4 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="mainTxtClr">#000000</color>
     <color name="teamNameField">#999999</color>
+    <color name="mainBkndColor">#FFFFFF</color>
 </resources>
