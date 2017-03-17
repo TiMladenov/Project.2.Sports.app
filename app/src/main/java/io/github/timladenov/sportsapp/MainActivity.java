@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setNamesA();
         updateScreen();
+        setNamesA();
     }
 
     @Override
@@ -136,18 +136,24 @@ public class MainActivity extends AppCompatActivity {
         String viewTxtB = txtB.getText().toString();
 
         if(viewTxtA == "AD") {
+            pointsBteamStr = "AD";
             txtB = (TextView) findViewById(R.id.pointsB);
-            txtB.setText("AD");
+            txtB.setText(pointsBteamStr);
+
+            pointsAteamStr = Integer.toString(teamApoints);
 
             txtA = (TextView) findViewById(R.id.pointsA);
-            txtA.setText(Integer.toString(teamApoints));
+            txtA.setText(pointsAteamStr);
         }
         else if(viewTxtB == "AD") {
+            pointsAteamStr = "AD";
             txtA = (TextView) findViewById(R.id.pointsA);
-            txtA.setText("AD");
+            txtA.setText(pointsAteamStr);
+
+            pointsBteamStr = Integer.toString(teamBpoints);
 
             txtB = (TextView) findViewById(R.id.pointsB);
-            txtB.setText(Integer.toString(teamBpoints));
+            txtB.setText(pointsBteamStr);
         }
         else {
             gamesA = 0;
