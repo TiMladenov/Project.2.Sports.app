@@ -174,6 +174,9 @@ public class MainActivity extends AppCompatActivity {
             pointsAteamStr = "0";
             pointsBteamStr = "0";
 
+            canAdA = false;
+            canAdB = false;
+
             txtA.setText(pointsAteamStr);
             txtA = (TextView) findViewById(R.id.teamAGames);
             txtA.setText(Integer.toString(gamesA));

@@ -15,8 +15,8 @@ public class EnterTeamNames extends AppCompatActivity {
     EditText nameA = null;
     EditText nameB = null;
 
-    public String nameOfPlayerA = "Team A";
-    public String nameOfPlayerB = "Team B";
+    public String nameOfPlayerA = "";
+    public String nameOfPlayerB = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
