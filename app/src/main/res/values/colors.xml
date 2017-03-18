@@ -3,7 +3,10 @@
     <color name="colorPrimary">#000000</color>
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="mainTxtClr">#000000</color>
+    <color name="mainTxtClr">#FFFFFF</color>
+    <color name="secondaryTxtClr">#000000</color>
     <color name="teamNameField">#999999</color>
-    <color name="mainBkndColor">#FFFFFF</color>
+    <color name="mainBkndColor">#af4538</color>
+    <color name="viewBkndColor">#6b866a</color>
+    <color name="buttonBkndColor">#000000</color>
 </resources>

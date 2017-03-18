@@ -10,12 +10,15 @@
     <dimen name="mainLogomarginTop">20dp</dimen>
     <dimen name="mainMarginTop">10dp</dimen>
     <dimen name="mainLogomarginStart">15dp</dimen>
+    <dimen name="editTextMargin">20dp</dimen>
     <dimen name="mainLogomarginEnd">15dp</dimen>
     <item name="weightItem" format="float" type="dimen">1</item>
     <item name="alpha" format="float" type="dimen">0</item>
+    <item name="alphaNames" format="float" type="dimen">0.8</item>
     <dimen name="optionButtonSize">60dp</dimen>
     <dimen name="teamNameFieldX">160dp</dimen>
     <dimen name="teamNameFieldY">25dp</dimen>
     <dimen name="scoreSize">35sp</dimen>
     <dimen name="buttonTxtSize">11sp</dimen>
+    <dimen name="nameFieldY">50dp</dimen>
 </resources>

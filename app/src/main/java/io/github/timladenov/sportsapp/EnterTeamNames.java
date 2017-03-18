@@ -9,14 +9,12 @@ import android.widget.EditText;
 
 public class EnterTeamNames extends AppCompatActivity {
 
+    public String nameOfPlayerA = "";
+    public String nameOfPlayerB = "";
     Button toMain = null;
-
     EditText tmp = null;
     EditText nameA = null;
     EditText nameB = null;
-
-    public String nameOfPlayerA = "";
-    public String nameOfPlayerB = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

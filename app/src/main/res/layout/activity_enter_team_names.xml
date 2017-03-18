@@ -8,44 +8,31 @@
     tools:context="io.github.timladenov.sportsapp.EnterTeamNames">
 
     <ImageView
+        android:contentDescription="@string/nameEntryBknd"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/teamnamebkgrnd"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop"
+        android:src="@drawable/teamnamebkgrnd" />
 
     <EditText
         android:id="@+id/firstPlayer"
+        style="@style/enterNamesView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/hintA"
-        android:textAlignment="center"
+        android:layout_height="@dimen/nameFieldY"
         android:layout_centerVertical="true"
-        android:textColor="@color/mainTxtClr"
-        android:textColorHint="@color/mainTxtClr"
-        android:background="@color/mainBkndColor"
-        android:alpha="0.8"
-        android:singleLine="true"/>
+        android:hint="@string/hintA" />
 
     <EditText
         android:id="@+id/secondPlayer"
-        android:layout_below="@id/firstPlayer"
+        style="@style/enterNamesView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/nameFieldY"
+        android:layout_below="@id/firstPlayer"
         android:layout_marginTop="@dimen/mainLogomarginTop"
-        android:hint="@string/hintB"
-        android:textAlignment="center"
-        android:layout_centerVertical="true"
-        android:textColor="@color/mainTxtClr"
-        android:textColorHint="@color/mainTxtClr"
-        android:background="@color/mainBkndColor"
-        android:alpha="0.8"
-        android:singleLine="true"/>
+        android:hint="@string/hintB" />
 
     <Button
-        android:id = "@+id/toMain"
-        android:layout_below="@id/secondPlayer"
-        android:layout_marginTop="@dimen/mainLogomarginTop"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text="Main"/>
+        style="@style/buttonToMain"
+        android:id="@+id/toMain"
+        android:text="@string/toMain" />
 </RelativeLayout>

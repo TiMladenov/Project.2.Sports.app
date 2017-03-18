@@ -5,29 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/mainBkndColor"
     tools:context="io.github.timladenov.sportsapp.MainActivity">
 
     <TextView
+        style="@style/appName"
         android:layout_width="match_parent"
         android:layout_height="@dimen/weightHeight"
-        android:layout_gravity="center"
-        android:layout_marginEnd="@dimen/mainLogomarginEnd"
-        android:layout_marginStart="@dimen/mainLogomarginStart"
-        android:layout_marginTop="@dimen/mainLogomarginTop"
-        android:layout_weight="@dimen/weightItem"
-        android:fontFamily="@string/mainTxtStyle"
-        android:text="@string/appLogo"
-        android:textAlignment="center"
-        android:textColor="@color/mainTxtClr"
-        android:textSize="@dimen/logoTxtSize"
-        android:textStyle="normal" />
+        android:layout_weight="@dimen/weightItem" />
 
     <View
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/drawLine1dp"
-        android:layout_marginEnd="@dimen/mainLogomarginEnd"
-        android:layout_marginStart="@dimen/mainLogomarginStart"
-        android:background="@color/mainTxtClr" />
+        style="@style/horizontalLine" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,20 +23,9 @@
         android:orientation="horizontal">
 
         <TextView
+            style="@style/namesDisplay"
             android:id="@+id/TeamAName"
-            android:layout_width="@dimen/weightHeight"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginEnd="@dimen/mainLogomarginEnd"
-            android:layout_marginStart="@dimen/mainLogomarginStart"
-            android:layout_weight="@dimen/weightItem"
-            android:fontFamily="@string/mainTxtStyle"
-            android:gravity="center_vertical"
-            android:text="@string/teamA"
-            android:textAlignment="center"
-            android:textColor="@color/mainTxtClr"
-            android:textSize="@dimen/genTxtSize"
-            android:textStyle="normal" />
+            android:text="@string/teamA"/>
 
         <View
             android:layout_width="1dp"
@@ -58,29 +35,14 @@
             android:background="@color/mainTxtClr" />
 
         <TextView
+            style="@style/namesDisplay"
             android:id="@+id/TeamBName"
-            android:layout_width="@dimen/weightHeight"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginEnd="@dimen/mainLogomarginEnd"
-            android:layout_marginStart="@dimen/mainLogomarginStart"
-            android:layout_weight="@dimen/weightItem"
-            android:fontFamily="@string/mainTxtStyle"
-            android:gravity="center_vertical"
-            android:text="@string/teamB"
-            android:textAlignment="center"
-            android:textColor="@color/mainTxtClr"
-            android:textSize="@dimen/genTxtSize"
-            android:textStyle="normal" />
+            android:text="@string/teamB" />
 
     </LinearLayout>
 
     <View
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/drawLine1dp"
-        android:layout_marginEnd="@dimen/mainLogomarginEnd"
-        android:layout_marginStart="@dimen/mainLogomarginStart"
-        android:background="@color/mainTxtClr" />
+        style="@style/horizontalLine" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -88,34 +50,12 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="@dimen/weightHeight"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginEnd="@dimen/mainLogomarginEnd"
-            android:layout_marginStart="@dimen/mainLogomarginStart"
-            android:layout_weight="@dimen/weightItem"
-            android:fontFamily="@string/mainTxtStyle"
-            android:gravity="center_vertical"
-            android:text="@string/game"
-            android:textAlignment="center"
-            android:textColor="@color/mainTxtClr"
-            android:textSize="@dimen/genTxtSize"
-            android:textStyle="normal" />
+            style="@style/fieldNames"
+            android:text="@string/game" />
 
         <TextView
-            android:layout_width="@dimen/weightHeight"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginEnd="@dimen/mainLogomarginEnd"
-            android:layout_marginStart="@dimen/mainLogomarginStart"
-            android:layout_weight="@dimen/weightItem"
-            android:fontFamily="@string/mainTxtStyle"
-            android:gravity="center_vertical"
-            android:text="@string/points"
-            android:textAlignment="center"
-            android:textColor="@color/mainTxtClr"
-            android:textSize="@dimen/genTxtSize"
-            android:textStyle="normal" />
+            style="@style/fieldNames"
+            android:text="@string/points" />
 
         <View
             android:layout_width="1dp"
@@ -125,36 +65,17 @@
             android:background="@color/mainTxtClr" />
 
         <TextView
-            android:layout_width="@dimen/weightHeight"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginEnd="@dimen/mainLogomarginEnd"
-            android:layout_marginStart="@dimen/mainLogomarginStart"
-            android:layout_weight="@dimen/weightItem"
-            android:fontFamily="@string/mainTxtStyle"
-            android:gravity="center_vertical"
-            android:text="@string/points"
-            android:textAlignment="center"
-            android:textColor="@color/mainTxtClr"
-            android:textSize="@dimen/genTxtSize"
-            android:textStyle="normal" />
+            style="@style/fieldNames"
+            android:text="@string/points" />
 
         <TextView
-            android:layout_width="@dimen/weightHeight"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginEnd="@dimen/mainLogomarginEnd"
-            android:layout_marginStart="@dimen/mainLogomarginStart"
-            android:layout_weight="@dimen/weightItem"
-            android:fontFamily="@string/mainTxtStyle"
-            android:gravity="center_vertical"
-            android:text="@string/game"
-            android:textAlignment="center"
-            android:textColor="@color/mainTxtClr"
-            android:textSize="@dimen/genTxtSize"
-            android:textStyle="normal" />
+            style="@style/fieldNames"
+            android:text="@string/game" />
 
     </LinearLayout>
+
+    <View
+        style="@style/horizontalLine" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -163,37 +84,14 @@
         android:orientation="horizontal">
 
         <TextView
+            style="@style/scoreWindows"
             android:id="@+id/teamAGames"
-            android:layout_width="@dimen/weightHeight"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginEnd="@dimen/mainLogomarginEnd"
-            android:layout_marginStart="@dimen/mainLogomarginStart"
-            android:layout_weight="@dimen/weightItem"
-            android:fontFamily="@string/mainTxtStyle"
-            android:gravity="center_vertical"
-            android:text="@string/scoreA"
-            android:textAlignment="center"
-            android:textColor="@color/mainTxtClr"
-            android:textSize="@dimen/scoreSize"
-            android:textStyle="normal" />
+            android:text="@string/scoreA" />
 
         <TextView
+            style="@style/scoreWindows"
             android:id="@+id/pointsA"
-            android:layout_width="@dimen/weightHeight"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
-
-            android:layout_weight="@dimen/weightItem"
-            android:fontFamily="@string/mainTxtStyle"
-            android:gravity="center_vertical"
-            android:layout_marginEnd="@dimen/mainLogomarginEnd"
-            android:layout_marginStart="@dimen/mainLogomarginStart"
-            android:text="@string/scoreA"
-            android:textAlignment="center"
-            android:textColor="@color/mainTxtClr"
-            android:textSize="@dimen/scoreSize"
-            android:textStyle="normal" />
+            android:text="@string/scoreA" />
 
         <View
             android:layout_width="1dp"
@@ -203,45 +101,19 @@
             android:background="@color/mainTxtClr" />
 
         <TextView
+            style="@style/scoreWindows"
             android:id="@+id/pointsB"
-            android:layout_width="@dimen/weightHeight"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginEnd="@dimen/mainLogomarginEnd"
-            android:layout_marginStart="@dimen/mainLogomarginStart"
-            android:layout_weight="@dimen/weightItem"
-            android:fontFamily="@string/mainTxtStyle"
-            android:gravity="center_vertical"
-            android:text="@string/scoreB"
-            android:textAlignment="center"
-            android:textColor="@color/mainTxtClr"
-            android:textSize="@dimen/scoreSize"
-            android:textStyle="normal" />
+            android:text="@string/scoreB" />
 
         <TextView
+            style="@style/scoreWindows"
             android:id="@+id/teamBGames"
-            android:layout_width="@dimen/weightHeight"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginEnd="@dimen/mainLogomarginEnd"
-            android:layout_marginStart="@dimen/mainLogomarginStart"
-            android:layout_weight="@dimen/weightItem"
-            android:fontFamily="@string/mainTxtStyle"
-            android:gravity="center_vertical"
-            android:text="@string/scoreA"
-            android:textAlignment="center"
-            android:textColor="@color/mainTxtClr"
-            android:textSize="@dimen/scoreSize"
-            android:textStyle="normal" />
+            android:text="@string/scoreB" />
 
     </LinearLayout>
 
     <View
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/drawLine1dp"
-        android:layout_marginEnd="@dimen/mainLogomarginEnd"
-        android:layout_marginStart="@dimen/mainLogomarginStart"
-        android:background="@color/mainTxtClr" />
+        style="@style/horizontalLine" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -252,6 +124,7 @@
         android:layout_marginTop="@dimen/mainLogomarginTop"
         android:layout_weight="@dimen/weightItem"
         android:gravity="center"
+        android:background="@color/viewBkndColor"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -261,23 +134,14 @@
             android:gravity="center">
 
             <Button
+                style="@style/buttonStyle"
                 android:id="@+id/resetScoreA"
-                android:layout_width="@dimen/optionButtonSize"
-                android:layout_height="@dimen/optionButtonSize"
                 android:onClick="reset"
-                android:text="@string/decrement"
-                android:textAlignment="center"
-                android:textColor="@color/mainTxtClr"
-                android:textSize="@dimen/buttonTxtSize"
-                android:textStyle="normal" />
+                android:text="@string/decrement" />
         </LinearLayout>
 
         <View
-            android:layout_width="@dimen/drawLine1dp"
-            android:layout_height="match_parent"
-            android:layout_marginEnd="@dimen/mainLogomarginEnd"
-            android:layout_marginStart="@dimen/mainLogomarginStart"
-            android:background="@color/mainTxtClr" />
+            style="@style/verticalButtonSpacer" />
 
         <LinearLayout
             android:layout_width="@dimen/weightHeight"
@@ -286,23 +150,14 @@
             android:gravity="center">
 
             <Button
+                style="@style/buttonStyle"
                 android:id="@+id/addPointsA"
-                android:layout_width="@dimen/optionButtonSize"
-                android:layout_height="@dimen/optionButtonSize"
-                android:text="@string/addPoint"
-                android:textAlignment="center"
                 android:onClick="newResult"
-                android:textColor="@color/mainTxtClr"
-                android:textSize="@dimen/buttonTxtSize"
-                android:textStyle="normal" />
+                android:text="@string/addPoint" />
         </LinearLayout>
 
         <View
-            android:layout_width="@dimen/drawLine1dp"
-            android:layout_height="match_parent"
-            android:layout_marginEnd="@dimen/mainLogomarginEnd"
-            android:layout_marginStart="@dimen/mainLogomarginStart"
-            android:background="@color/mainTxtClr" />
+            style="@style/verticalButtonSpacer" />
 
         <LinearLayout
             android:layout_width="@dimen/weightHeight"
@@ -311,23 +166,14 @@
             android:gravity="center">
 
             <Button
+                style="@style/buttonStyle"
                 android:id="@+id/addPointsB"
-                android:layout_width="@dimen/optionButtonSize"
-                android:layout_height="@dimen/optionButtonSize"
-                android:text="@string/addPoint"
                 android:onClick="newResult"
-                android:textAlignment="center"
-                android:textColor="@color/mainTxtClr"
-                android:textSize="@dimen/buttonTxtSize"
-                android:textStyle="normal" />
+                android:text="@string/addPoint" />
         </LinearLayout>
 
         <View
-            android:layout_width="@dimen/drawLine1dp"
-            android:layout_height="match_parent"
-            android:layout_marginEnd="@dimen/mainLogomarginEnd"
-            android:layout_marginStart="@dimen/mainLogomarginStart"
-            android:background="@color/mainTxtClr" />
+            style="@style/verticalButtonSpacer" />
 
         <LinearLayout
             android:layout_width="@dimen/weightHeight"
@@ -336,15 +182,10 @@
             android:gravity="center">
 
             <Button
+                style="@style/buttonStyle"
                 android:id="@+id/resetScoreB"
-                android:layout_width="@dimen/optionButtonSize"
-                android:layout_height="@dimen/optionButtonSize"
-                android:text="@string/decrement"
                 android:onClick="reset"
-                android:textAlignment="center"
-                android:textColor="@color/mainTxtClr"
-                android:textSize="@dimen/buttonTxtSize"
-                android:textStyle="normal" />
+                android:text="@string/decrement" />
         </LinearLayout>
 
     </LinearLayout>

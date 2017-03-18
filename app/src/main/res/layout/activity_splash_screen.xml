@@ -7,9 +7,10 @@
     tools:context="io.github.timladenov.sportsapp.SplashScreen">
 
     <ImageView
+        android:contentDescription="@string/contentLogo"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:src="@drawable/splashlogo2a"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/splashlogo2a" />
 
 </RelativeLayout>

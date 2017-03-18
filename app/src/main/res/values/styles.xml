@@ -7,5 +7,111 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    
+    <style name="enterNamesView" parent="@android:style/Widget.EditText">
+        <item name="android:alpha">@dimen/alphaNames</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/secondaryTxtClr</item>
+        <item name="android:textColorHint">@color/secondaryTxtClr</item>
+        <item name="android:layout_margin">@dimen/editTextMargin</item>
+    </style>
+
+    <style name="buttonToMain" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/mainLogomarginTop</item>
+    </style>
+
+    <style name="appName" parent="@android:style/Widget.TextView">
+        <item name="android:layout_marginEnd">@dimen/mainLogomarginEnd</item>
+        <item name="android:layout_marginStart">@dimen/mainLogomarginStart</item>
+        <item name="android:layout_marginTop">@dimen/mainLogomarginTop</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:fontFamily">@string/mainTxtStyle</item>
+        <item name="android:text">@string/appLogo</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/mainTxtClr</item>
+        <item name="android:textSize">@dimen/logoTxtSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@color/viewBkndColor</item>
+    </style>
+
+    <style name="horizontalLine" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/drawLine1dp</item>
+        <item name="android:layout_marginEnd">@dimen/mainLogomarginEnd</item>
+        <item name="android:layout_marginStart">@dimen/mainLogomarginStart</item>
+        <item name="android:background">@color/mainTxtClr</item>
+    </style>
+
+    <style name="verticalButtonSpacer" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">@dimen/drawLine1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginEnd">@dimen/mainLogomarginEnd</item>
+        <item name="android:layout_marginStart">@dimen/mainLogomarginStart</item>
+        <item name="android:background">@color/mainTxtClr</item>
+    </style>
+
+    <style name="namesDisplay" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">@dimen/weightHeight</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginEnd">@dimen/mainLogomarginEnd</item>
+        <item name="android:layout_marginStart">@dimen/mainLogomarginStart</item>
+        <item name="android:layout_weight">@dimen/weightItem</item>
+        <item name="android:fontFamily">@string/mainTxtStyle</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/mainTxtClr</item>
+        <item name="android:textSize">@dimen/genTxtSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@color/viewBkndColor</item>
+    </style>
+
+    <style name="fieldNames" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">@dimen/weightHeight</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginEnd">@dimen/mainLogomarginEnd</item>
+        <item name="android:layout_marginStart">@dimen/mainLogomarginStart</item>
+        <item name="android:layout_weight">@dimen/weightItem</item>
+        <item name="android:fontFamily">@string/mainTxtStyle</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/mainTxtClr</item>
+        <item name="android:textSize">@dimen/genTxtSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@color/viewBkndColor</item>
+    </style>
+
+    <style name="scoreWindows" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">@dimen/weightHeight</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginEnd">@dimen/mainLogomarginEnd</item>
+        <item name="android:layout_marginStart">@dimen/mainLogomarginStart</item>
+        <item name="android:layout_weight">@dimen/weightItem</item>
+        <item name="android:fontFamily">@string/mainTxtStyle</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/mainTxtClr</item>
+        <item name="android:textSize">@dimen/scoreSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@color/viewBkndColor</item>
+    </style>
+
+    <style name="buttonStyle" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">@dimen/optionButtonSize</item>
+        <item name="android:layout_height">@dimen/optionButtonSize</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/buttonBkndColor</item>
+        <item name="android:textSize">@dimen/buttonTxtSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
 
 </resources>
