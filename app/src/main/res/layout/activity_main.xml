@@ -8,6 +8,9 @@
     android:background="@color/mainBkndColor"
     tools:context="io.github.timladenov.sportsapp.MainActivity">
 
+    <View
+        style="@style/horizontalLine" />
+
     <TextView
         style="@style/appName"
         android:layout_width="match_parent"
@@ -124,7 +127,7 @@
         android:layout_marginTop="@dimen/mainLogomarginTop"
         android:layout_weight="@dimen/weightItem"
         android:gravity="center"
-        android:background="@color/viewBkndColor"
+        android:background="@drawable/linlayout_shadow"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -189,5 +192,8 @@
         </LinearLayout>
 
     </LinearLayout>
+
+    <View
+        style="@style/horizontalLine" />
 
 </LinearLayout>

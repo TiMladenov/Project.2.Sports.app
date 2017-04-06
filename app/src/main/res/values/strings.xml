@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Tennis score</string>
     <string name="appLogo">Tennis Score Keeper</string>
+    <string name="namesErrMsg">Enter names to both players.</string>
     <string name="hintA">Enter Player A name</string>
     <string name="hintB">Enter Player B name</string>
     <string name="gameSelect">Select your game to track score</string>
@@ -10,13 +11,14 @@
     <string name="teamNameEntryB">Enter team B name</string>
     <string name="scoreA">""</string>
     <string name="scoreB">""</string>
-    <string name="decrement">Deuce\n-\nReset</string>
+    <string name="decrement">Reset</string>
     <string name="addPoint">Add Point</string>
     <string name="game">Sets</string>
     <string name="points">Points</string>
     <string name="teamA">""</string>
     <string name="teamB">""</string>
     <string name="toMain">Proceed to Score keeper</string>
-    <string name="contentLogo">Tennis score keepe logo, tennis field</string>
+    <string name="contentLogo">Tennis score keeper logo, tennis field</string>
     <string name="nameEntryBknd">Tennis field</string>
+    <string name="deuceCounter">Deuce number" "</string>
 </resources>

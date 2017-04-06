@@ -1,8 +1,5 @@
 <resources>
-
-    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -10,7 +7,7 @@
     
     <style name="enterNamesView" parent="@android:style/Widget.EditText">
         <item name="android:alpha">@dimen/alphaNames</item>
-        <item name="android:background">#FFFFFF</item>
+        <item name="android:background">@drawable/edittext_shadow</item>
         <item name="android:singleLine">true</item>
         <item name="android:textAlignment">center</item>
         <item name="android:textColor">@color/secondaryTxtClr</item>
@@ -24,20 +21,24 @@
         <item name="android:layout_alignParentBottom">true</item>
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_marginTop">@dimen/mainLogomarginTop</item>
+        <item name="android:layout_margin">@dimen/editTextMargin</item>
     </style>
 
     <style name="appName" parent="@android:style/Widget.TextView">
         <item name="android:layout_marginEnd">@dimen/mainLogomarginEnd</item>
         <item name="android:layout_marginStart">@dimen/mainLogomarginStart</item>
         <item name="android:layout_marginTop">@dimen/mainLogomarginTop</item>
-        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_vertical</item>
         <item name="android:fontFamily">@string/mainTxtStyle</item>
         <item name="android:text">@string/appLogo</item>
         <item name="android:textAlignment">center</item>
         <item name="android:textColor">@color/mainTxtClr</item>
         <item name="android:textSize">@dimen/logoTxtSize</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:background">@color/viewBkndColor</item>
+        <item name="android:background">@drawable/linlayout_shadow</item>
+        <item name="android:shadowColor">@color/buttonBkndColor</item>
+        <item name="android:shadowRadius">@dimen/shadownSize</item>
+        <item name="android:shadowDy">@dimen/shadownSize</item>
     </style>
 
     <style name="horizontalLine" parent="@android:style/Widget.TextView">
@@ -45,6 +46,8 @@
         <item name="android:layout_height">@dimen/drawLine1dp</item>
         <item name="android:layout_marginEnd">@dimen/mainLogomarginEnd</item>
         <item name="android:layout_marginStart">@dimen/mainLogomarginStart</item>
+        <item name="android:layout_marginTop">@dimen/smallMargin</item>
+        <item name="android:layout_marginBottom">@dimen/smallMargin</item>
         <item name="android:background">@color/mainTxtClr</item>
     </style>
 
@@ -69,7 +72,10 @@
         <item name="android:textColor">@color/mainTxtClr</item>
         <item name="android:textSize">@dimen/genTxtSize</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:background">@color/viewBkndColor</item>
+        <item name="android:background">@drawable/linlayout_shadow</item>
+        <item name="android:shadowColor">@color/buttonBkndColor</item>
+        <item name="android:shadowRadius">@dimen/shadownSize</item>
+        <item name="android:shadowDy">@dimen/shadownSize</item>
     </style>
 
     <style name="fieldNames" parent="@android:style/Widget.TextView">
@@ -85,7 +91,10 @@
         <item name="android:textColor">@color/mainTxtClr</item>
         <item name="android:textSize">@dimen/genTxtSize</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:background">@color/viewBkndColor</item>
+        <item name="android:background">@drawable/linlayout_shadow</item>
+        <item name="android:shadowColor">@color/buttonBkndColor</item>
+        <item name="android:shadowRadius">@dimen/shadownSize</item>
+        <item name="android:shadowDy">@dimen/shadownSize</item>
     </style>
 
     <style name="scoreWindows" parent="@android:style/Widget.TextView">
@@ -101,7 +110,10 @@
         <item name="android:textColor">@color/mainTxtClr</item>
         <item name="android:textSize">@dimen/scoreSize</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:background">@color/viewBkndColor</item>
+        <item name="android:background">@drawable/linlayout_shadow</item>
+        <item name="android:shadowColor">@color/buttonBkndColor</item>
+        <item name="android:shadowRadius">@dimen/shadownSize</item>
+        <item name="android:shadowDy">@dimen/shadownSize</item>
     </style>
 
     <style name="buttonStyle" parent="@android:style/Widget.Button">
@@ -111,7 +123,11 @@
         <item name="android:textColor">@color/buttonBkndColor</item>
         <item name="android:textSize">@dimen/buttonTxtSize</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/smallMargin</item>
         <item name="android:textAllCaps">true</item>
+        <item name="android:shadowColor">@color/buttonBkndColor</item>
+        <item name="android:shadowRadius">@dimen/shadownSize</item>
+        <item name="android:shadowDy">@dimen/shadownSizeButton</item>
     </style>
 
 </resources>

@@ -8,6 +8,7 @@
     <dimen name="genTxtSize">15sp</dimen>
     <dimen name="selectTxtSize">25sp</dimen>
     <dimen name="mainLogomarginTop">20dp</dimen>
+    <dimen name="smallMargin">2dp</dimen>
     <dimen name="mainMarginTop">10dp</dimen>
     <dimen name="mainLogomarginStart">15dp</dimen>
     <dimen name="editTextMargin">20dp</dimen>
@@ -21,4 +22,6 @@
     <dimen name="scoreSize">35sp</dimen>
     <dimen name="buttonTxtSize">11sp</dimen>
     <dimen name="nameFieldY">50dp</dimen>
+    <item name="shadownSize" format="float" type="dimen">3</item>
+    <item name="shadownSizeButton" format="float" type="dimen">1</item>
 </resources>

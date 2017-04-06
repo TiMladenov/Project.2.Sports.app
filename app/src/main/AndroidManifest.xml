@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".EnterTeamNames" android:configChanges = "orientation" android:screenOrientation = "portrait"/>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
