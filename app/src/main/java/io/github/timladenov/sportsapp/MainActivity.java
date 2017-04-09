@@ -3,7 +3,7 @@
 *           This application has been created for Project 2 on Udacity's Google sponsored "Android For Beginners" course;
 *           18 March 2017
 *
-* @version  v2.1 final
+* @version  v2.2 final
 * @since    v1.0a
 * */
 
@@ -238,7 +238,7 @@ public class MainActivity extends AppCompatActivity {
         gamesB = 0;
         teamApoints = 0;
         teamBpoints = 0;
-        deuceCount = 0;
+        deuceCount = 1;
         pointsAteamStr = "0";
         pointsBteamStr = "0";
         canAdA = false;
@@ -275,6 +275,7 @@ public class MainActivity extends AppCompatActivity {
                     pointsAteamStr = "0";
                     pointsTeamA.setText(pointsAteamStr);
                     teamBpoints = 0;
+                    deuceCount = 1;
                     pointsBteamStr = "0";
                     pointsTeamB.setText(pointsBteamStr);
                     canAdA = false;
@@ -291,6 +292,7 @@ public class MainActivity extends AppCompatActivity {
                     pointsAteamStr = "0";
                     pointsTeamA.setText(pointsAteamStr);
                     teamBpoints = 0;
+                    deuceCount = 1;
                     pointsBteamStr = "0";
                     pointsTeamB.setText(pointsBteamStr);
                     canAdA = false;
