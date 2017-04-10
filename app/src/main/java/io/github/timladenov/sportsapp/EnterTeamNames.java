@@ -1,5 +1,5 @@
 /*
-* @author   Tihomri Mladenov <tihomir.mladenov777@gmail.com>
+* @author   Tihomir Mladenov <tihomir.mladenov777@gmail.com>
 *           This application has been created for Project 2 on Udacity's Google sponsored "Android For Beginners" course;
 *           18 March 2017
 *
